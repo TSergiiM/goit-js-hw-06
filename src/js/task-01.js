@@ -1,5 +1,5 @@
-const arrayOfCategories = document.querySelectorAll('li.item');
-console.log('Number of categories:', numberOfCategories.length);
+const arrayOfCategories = document.querySelectorAll('.item');
+console.log('Number of categories:', arrayOfCategories.length);
 arrayOfCategories.forEach(element => {
   const elementTitle = element.querySelector('h2');
   console.log('Category:', elementTitle.textContent);
