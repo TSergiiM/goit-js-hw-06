@@ -1,6 +1,6 @@
 const ingredients = ['Potatoes', 'Mushrooms', 'Garlic', 'Tomatos', 'Herbs', 'Condiments'];
 
-ingredients.forEach(elem => {
+ingredients.map(elem => {
   const elemLi = document.createElement('li');
   elemLi.textContent = elem;
   elemLi.classList.add('item');
