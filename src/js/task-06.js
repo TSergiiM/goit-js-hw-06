@@ -2,7 +2,7 @@ const userInput = document.querySelector('#validation-input');
 const length = userInput.dataset.length;
 
 const onInputBlur = event => {
-  if (event.currentTarget.value.length == length) {
+  if (event.currentTarget.value.trim().length == length) {
     event.currentTarget.classList.remove('invalid');
     event.currentTarget.classList.add('valid');
   } else {
