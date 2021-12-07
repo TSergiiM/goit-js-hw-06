@@ -7,4 +7,3 @@ const markup = ingredients.map(elem => {
   return elemLi;
 });
 elementUlRef.append(...markup);
-console.log(markup);
