@@ -7,5 +7,5 @@ const bgColor = document.querySelector('.color');
 
 const onColorSet = btnChangeColor.addEventListener('click', () => {
   document.body.style.background = getRandomHexColor();
-  bgColor.textContent = getRandomHexColor();
+  bgColor.textContent = document.body.style.background;
 });
